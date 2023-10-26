@@ -1,0 +1,57 @@
+.int-site>div {
+    
+    display: flex;
+    background-color: rgba(224, 150, 225, 0.927);
+    justify-content: space-evenly;
+    height: 100px;
+    width: 1000px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.sobre>div {
+    text-align: center;
+    background-color: rgba(69, 57, 57, 0.800);
+    margin: 50px 50px;
+    box-shadow: 10px 10px #000000;
+    color: #FFF;
+}
+
+.skills>div {
+    text-align: center;
+    background-color: rgb(69, 57, 57, 0.800);
+    margin: 50px 50px;
+    box-shadow: 10px 10px #000000;
+    color: #FFF;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(224, 150, 225, 0.927);
+    color: #FFF;
+    width: 1390px;
+    height: 100px;    
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+body{
+    background-image: url(pag-web-back.gif);
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+   }
+
+a:hover {
+    text-decoration: underline;
+   }
